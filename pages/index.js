@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
+//import Image from 'next/image'
+import Image from './components/Image'
 import styles from '../styles/Home.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -29,7 +30,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          From my brain to yours and back again.
+          From this brain to yours and back again.
         </p>
 
         <div className={styles.grid}>
@@ -73,9 +74,9 @@ export default function Home() {
 
         <div className={styles.grid}>
 
-          <a href="http://wordstream.tv" className={styles.card}>
-            <h2>2022-01-23 &rarr;</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+          <a href="https://docs.google.com/document/d/1Z9rZVDxmtWdwPo-aJiBAMlLHq7vFY0YmBcwNGjsRkNA/edit" className={styles.card}>
+            <h2>2022-01-30 &rarr;</h2>
+            <p>Impatience is a virtue? ...</p>
           </a>
 
           
