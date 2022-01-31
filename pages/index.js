@@ -1,3 +1,4 @@
+import Script from 'next/script';
 import Head from 'next/head'
 //import Image from 'next/image'
 import Image from './components/Image'
@@ -23,6 +24,20 @@ export default function Home() {
         <meta name="description" content="WordStreamTV" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-1Z8KCHR33P"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-1Z8KCHR33P');
+          `}
+        </Script>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
