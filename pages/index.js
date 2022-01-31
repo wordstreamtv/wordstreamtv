@@ -42,7 +42,7 @@ export default function Home() {
           className={styles.social}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <FontAwesomeIcon icon={faYoutube} size="2x" />
           </a>
-          <a href="https://www.facebook.com/profile.php?id=100077450324025"
+          <a href="https://www.facebook.com/wordstreamtv/"
           className={styles.social}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <FontAwesomeIcon icon={faFacebook} size="2x" />
           </a>
