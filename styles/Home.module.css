@@ -51,6 +51,12 @@
   text-align: center;
 }
 
+.constrained {
+  width: 50px;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
 .description {
   margin: 2rem 0;
   line-height: 1.5;
@@ -67,6 +73,14 @@
 }
 
 .grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.socialgrid {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -119,6 +133,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  width: 50px;
 }
 
 @media (max-width: 600px) {

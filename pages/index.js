@@ -12,7 +12,8 @@ import {
     faInstagram,
     faReddit
   } from "@fortawesome/free-brands-svg-icons";
-
+  import { faKeyboard } from '@fortawesome/free-regular-svg-icons'
+  
 // @ts-ignore
 import { TwitchEmbed, TwitchChat, TwitchClip, TwitchPlayer } from 'react-twitch-embed';
 
@@ -41,37 +42,37 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          WordStreamTV
+          <div className={styles.constrained}><FontAwesomeIcon icon={faKeyboard} /></div> WordStreamTV
         </h1>
 
         <p className={styles.description}>
           From this brain to yours and back again.
         </p>
 
-        <div className={styles.grid}>
+        <div className={styles.socialgrid}>
           <a href="https://www.twitch.tv/wordstreamtv"
-          className={styles.social}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <FontAwesomeIcon icon={faTwitch} size="2x" />
+          className={styles.social}>
+          <FontAwesomeIcon icon={faTwitch} />
           </a>
           <a href="https://www.youtube.com/channel/UCqwkm2sAGTmFHNukHd5WlJg"
-          className={styles.social}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <FontAwesomeIcon icon={faYoutube} size="2x" />
+          className={styles.social}>
+          <FontAwesomeIcon icon={faYoutube}/>
           </a>
           <a href="https://www.facebook.com/wordstreamtv/"
-          className={styles.social}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <FontAwesomeIcon icon={faFacebook} size="2x" />
+          className={styles.social}>
+          <FontAwesomeIcon icon={faFacebook} />
           </a>
           <a href="https://twitter.com/wordstreamtv"
-          className={styles.social}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <FontAwesomeIcon icon={faTwitter} size="2x" />
+          className={styles.social}>
+          <FontAwesomeIcon icon={faTwitter} />
           </a>
           <a href="https://www.instagram.com/wordstreamtv/"
-          className={styles.social}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <FontAwesomeIcon icon={faInstagram} size="2x" />
+          className={styles.social}>
+          <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a href="https://www.reddit.com/user/wordstreamtv"
-          className={styles.social}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <FontAwesomeIcon icon={faReddit} size="2x" />
+          className={styles.social}>
+          <FontAwesomeIcon icon={faReddit} />
           </a>
         </div>
 
@@ -81,8 +82,8 @@ export default function Home() {
         id="twitch-embed"
         theme="light"
         withChat={false}
-        width='300px'
-        height='300px'
+        width='375px'
+        height='211px'
         muted
         onVideoPause={() => console.log(':(')}
       /></div>
