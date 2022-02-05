@@ -90,6 +90,11 @@ export default function Home() {
 
         <div className={styles.grid}>
 
+        <a href="https://docs.google.com/document/d/1sv9J1p07DCcbGsb7Lub4LmkZXq-2E33Sp2EsCSZ2KAA/edit" className={styles.card}>
+            <h2>2022-02-05 &rarr;</h2>
+            <p>To music this time ...</p>
+          </a>
+
          <a href="https://docs.google.com/document/d/1SwBR3IArsN-3QUPUmk8ROYu_NWUBn9cv3tE_ziV3Y7w/edit" className={styles.card}>
             <h2>2022-02-02 &rarr;</h2>
             <p>Frenetic day ...</p>
