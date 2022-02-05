@@ -10,7 +10,8 @@ import {
     faTwitch,
     faTwitter,
     faInstagram,
-    faReddit
+    faReddit,
+    faDiscord
   } from "@fortawesome/free-brands-svg-icons";
   import { faKeyboard } from '@fortawesome/free-regular-svg-icons'
   
@@ -73,6 +74,10 @@ export default function Home() {
           <a href="https://www.reddit.com/user/wordstreamtv"
           className={styles.social}>
           <FontAwesomeIcon icon={faReddit} />
+          </a>
+          <a href="https://discord.gg/V6TKfwaHzN"
+          className={styles.social}>
+          <FontAwesomeIcon icon={faDiscord} />
           </a>
         </div>
 
