@@ -95,21 +95,25 @@ export default function Home() {
 
         <div className={styles.grid}>
 
+        <a href="https://docs.google.com/document/d/1Zn1wChLBqL3rdbdkubfK5w5Z7NWJ7fgE61JNMByXNUE/edit" className={styles.card}>
+          <h2>2022-02-05 &rarr;</h2>
+          <p>Bemusment becomes priority one ...</p>
+        </a>
+
         <a href="https://docs.google.com/document/d/1sv9J1p07DCcbGsb7Lub4LmkZXq-2E33Sp2EsCSZ2KAA/edit" className={styles.card}>
-            <h2>2022-02-05 &rarr;</h2>
-            <p>To music this time ...</p>
-          </a>
+          <h2>2022-02-05 &rarr;</h2>
+          <p>To music this time ...</p>
+        </a>
 
          <a href="https://docs.google.com/document/d/1SwBR3IArsN-3QUPUmk8ROYu_NWUBn9cv3tE_ziV3Y7w/edit" className={styles.card}>
-            <h2>2022-02-02 &rarr;</h2>
-            <p>Frenetic day ...</p>
-          </a>
+          <h2>2022-02-02 &rarr;</h2>
+          <p>Frenetic day ...</p>
+        </a>
 
-          <a href="https://docs.google.com/document/d/1Z9rZVDxmtWdwPo-aJiBAMlLHq7vFY0YmBcwNGjsRkNA/edit" className={styles.card}>
-            <h2>2022-01-30 &rarr;</h2>
-            <p>Impatience is a virtue? ...</p>
-          </a>
-
+        <a href="https://docs.google.com/document/d/1Z9rZVDxmtWdwPo-aJiBAMlLHq7vFY0YmBcwNGjsRkNA/edit" className={styles.card}>
+          <h2>2022-01-30 &rarr;</h2>
+          <p>Impatience is a virtue? ...</p>
+        </a>
           
           {/* <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>2022-01-21 &rarr;</h2>
