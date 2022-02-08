@@ -97,7 +97,7 @@ export default function Home() {
 
         <a href="https://docs.google.com/document/d/1Zn1wChLBqL3rdbdkubfK5w5Z7NWJ7fgE61JNMByXNUE/edit" className={styles.card}>
           <h2>2022-02-05 &rarr;</h2>
-          <p>Bemusment becomes priority one ...</p>
+          <p>Bemusement becomes priority one ...</p>
         </a>
 
         <a href="https://docs.google.com/document/d/1sv9J1p07DCcbGsb7Lub4LmkZXq-2E33Sp2EsCSZ2KAA/edit" className={styles.card}>
