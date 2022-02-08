@@ -96,7 +96,7 @@ export default function Home() {
         <div className={styles.grid}>
 
         <a href="https://docs.google.com/document/d/1Zn1wChLBqL3rdbdkubfK5w5Z7NWJ7fgE61JNMByXNUE/edit" className={styles.card}>
-          <h2>2022-02-05 &rarr;</h2>
+          <h2>2022-02-07 &rarr;</h2>
           <p>Bemusement becomes priority one ...</p>
         </a>
 
